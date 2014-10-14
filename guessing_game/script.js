@@ -5,13 +5,10 @@ function getRandomNum(min, max) {
 var num = getRandomNum(1,100);
 var answers = 5;
 var guessArr = [];
-console.log(num);
 
 $('#submit').click(function() {
 	var guess = $('#guess').val();
 	var status = "";
-	console.log(typeof guess);
-	console.log(num);
 
 	if(guess > 100 || guess <= 0 || typeof guess == "NaN") {
 		$('#guess').val('');
@@ -69,7 +66,6 @@ $('#submit').click(function() {
 
 $('.status').append("<p>You guessed " + guess + ". " + status + "</p>");
 guessArr.push(guess);
-console.log(guessArr);
 $('#guess').val('');
 
 answers--;
@@ -96,7 +92,6 @@ $('#hint').click(function() {
 
 $('#reset').click(function(){
 	num = getRandomNum(1,100);
-	console.log(num);
 	answers = 5;
 	$('.answer p').replaceWith("<p>Guess a number between 1 and 100<br><br>Feeling lucky ol' chap?</p>");
 	$('.mascot div').removeClass().addClass('begin');
@@ -113,8 +108,3 @@ $('#reset').click(function(){
 	}
 	guessArr = [];
 });
-
-
-
-
-
