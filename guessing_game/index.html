@@ -1,0 +1,47 @@
+<html>
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>The Guessing Game</title>
+</head>
+<body>
+	<div class="wrapper">
+		
+		<header>
+			<h1>The Guessing Game</h1>
+			<div class="line top"></div>
+		</header>
+		
+		<div id="guessing-area">
+			<div class="guess">
+				<input type="number" name="guess" id="guess">
+				<button id="submit">
+					<h3>Submit Your Guess</h3>
+				</button>
+			</div>
+			<div class="answer">
+				<div class="mascot">
+					<div class="begin"></div>
+				</div>
+					<p>Guess a number between 1 and 100
+						<br>
+						<br>	
+					Feeling lucky ol' chap?</p>
+			</div>
+			<div class="button-group">
+				<button id="reset">
+					<h3>Play Again</h3>
+				</button>
+				<button id="hint">
+					<h3>Give me a Hint</h3>
+				</button>
+			</div>
+		</div>
+		<div class="line bottom"></div>
+		<div class="answers"><p>You have <span>5</span> guesses.  Use them wisely...</p></div>
+		<div class="status"></div>
+	</div>
+	<script src="jquery-1.11.1.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
