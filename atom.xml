@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Chronicling the life of a budding web developer]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://ChuckPierce.github.io/"/>
-  <updated>2014-10-23T14:23:18.595Z</updated>
+  <updated>2014-10-23T16:16:05.551Z</updated>
   <id>http://ChuckPierce.github.io/</id>
   
   <author>
@@ -19,11 +19,11 @@
     <link href="http://ChuckPierce.github.io/2014/10/23/Hexo-Mailer-Post/"/>
     <id>http://ChuckPierce.github.io/2014/10/23/Hexo-Mailer-Post/</id>
     <published>2014-10-23T14:21:51.000Z</published>
-    <updated>2014-10-23T14:23:06.000Z</updated>
-    <content type="html"><![CDATA[<p>Here is another post that I’m using to check my hexo mailer is working.</p>
+    <updated>2014-10-23T16:15:26.000Z</updated>
+    <content type="html"><![CDATA[<p>Here is another post that I’m using to check if  my hexo mailer is working.</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>Here is another post that I’m using to check my hexo mailer is working.</p>
+    <![CDATA[<p>Here is another post that I’m using to check if  my hexo mailer is working.</p>
 ]]>
     </summary>
     
