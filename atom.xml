@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Chronicling the life of a budding web developer]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://ChuckPierce.github.io/"/>
-  <updated>2014-10-23T16:16:05.551Z</updated>
+  <updated>2014-11-03T19:04:50.609Z</updated>
   <id>http://ChuckPierce.github.io/</id>
   
   <author>
@@ -13,6 +13,28 @@
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[The Guessing Game]]></title>
+    <link href="http://ChuckPierce.github.io/2014/11/03/The-Guessing-Game/"/>
+    <id>http://ChuckPierce.github.io/2014/11/03/The-Guessing-Game/</id>
+    <published>2014-11-03T18:48:23.000Z</published>
+    <updated>2014-11-03T19:04:00.000Z</updated>
+    <content type="html"><![CDATA[<p>Through the weeks leading up to my first day at FullStack Academy of Code, I was assigned to create a simple web guessing game with HTML, CSS, and Javascript.</p>
+<p><a href="/Guessing-Game">The Guessing Game</a></p>
+<p>My inspiration for the design of the game came from a early 20th century newspaper.  With that in mind I decided to create a little mascot for the game. For the purposes of the post let’s call him Harrison. </p>
+<p><img src="/Guessing-Game/littleguy.png"></p>
+<p>Harrison is displayed in the beginning of the game as his normal self.  As the player puts guesses into the game, the image changes based on how hot or cold the player is.  I used classes in CSS to achieve this change.  Based on how close the guess is to the number determines what the image will be and what clue the player will be given to help them get to the final number.  The player only has five guesses and Harrison will either die (a little x over the eyes image) or he will give you a thumbs up.  Then the game can be played again with the reset button.</p>
+<p>There are a few more things I can do to make the code DRY but I think I completed the basics of what I wanted to accomplish.  Feel free to try the game in the link above!</p>
+<p>Check back here for more of my progress at FullStack and my journey in development.  Happy coding!</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Through the weeks leading up to my first day at FullStack Academy of Code, I was assigned to create a simple web guessing game with HTML,]]>
+    </summary>
+    
+      <category term="coding, projects" scheme="http://ChuckPierce.github.io/tags/coding-projects/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Hexo Mailer Post]]></title>
