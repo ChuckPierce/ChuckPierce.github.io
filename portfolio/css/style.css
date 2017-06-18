@@ -92,22 +92,14 @@ MAIN PAGE- NAVIGATION
 
 nav {
 	margin-top: .5%;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 nav ul {
-  	display: -webkit-box;
-  	display: -webkit-flex;
-  	display: -ms-flexbox;
   	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: column;
-	    -ms-flex-direction: column;
-	        flex-direction: column;
-	-webkit-box-align: end;
-	-webkit-align-items: flex-end;
-	    -ms-flex-align: end;
-	        align-items: flex-end;
-	margin: auto;
+	flex-direction: column;
+	align-items: center;
 	padding: 0;
 	text-align: center;
 }
@@ -134,11 +126,7 @@ MAIN PAGE- LOGO
 }
 
 #imglogo {
-	 background: url('../img/logo.png');
-	 background-size: contain;
-	 background-repeat: no-repeat;
-  	 margin-top: .5%;
-  	 height: 100%;
+	 align-self: center;
 }
 
 
